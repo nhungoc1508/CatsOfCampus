@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+html {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+}
+
+#header {
+    background-image: url('images/banner.jpg');
+    background-position: center;
+    text-align: center;
+    height: 200px;
+}
+
+.title {
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+    margin: 40px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.title ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title ul li {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+a:hover {
+    color: rgb(51, 101, 121);
+}
+
+#main {
+    display: inline-block;
+    text-align: left;
+    width: 800px;
+}
+
+.section {
+    margin: 40px 20px;
+    padding: 20px;
+    display: flex;
+    filter: drop-shadow(5px 5px 4px lightgray);
+    background-color: aliceblue;
+}
+
+.section:hover {
+    filter: drop-shadow(10px 10px 10px lightgray);
+}
+
+.section img {
+    width: 200px;
+}
+
+.desc {
+    padding: 20px;
+}
+
+.desc h3 {
+    font-size: 2rem;
+}
+
+.desc h4 {
+    font-size: 0.75rem;
+    margin-top: 5px;
+}
+
+#footer {
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+    background-color: rgb(255, 205, 187);
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
